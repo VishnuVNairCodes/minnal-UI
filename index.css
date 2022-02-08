@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-get-started {
+  color: white;
+  background-color: blue;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  border-style: none;
+  text-decoration: none;
+}
