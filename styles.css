@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --alert-primary: #1da1f2;
+  --alert-primary-bg: #ceeafc;
+  --alert-secondary: #fff;
+  --alert-secondary-bg: #0967a0;
+  --alert-secondary-outline: #000;
+  --alert-success: #10b394;
+  --alert-success-bg: #c8faf0;
+  --alert-warning: #e69409;
+  --alert-warning-bg: #fff9cd;
+  --alert-error: #dc2626;
+  --alert-error-bg: #f6c7c7;
+  --alert-info: #4447ee;
+  --alert-info-bg: #c1c2f9;
+  --alert-close-hover: #ff0000;
+}
