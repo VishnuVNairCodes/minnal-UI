@@ -10,7 +10,7 @@
     />
     <link href="/styles.css" rel="stylesheet" type="text/css" />
     <link href="/docs/docs.css" rel="stylesheet" type="text/css" />
-    <link href="avatar.css" rel="stylesheet" type="text/css" />
+    <link href="alert.css" rel="stylesheet" type="text/css" />
     <title>Get Started</title>
   </head>
   <body>
@@ -78,18 +78,29 @@
           </ul>
         </aside>
         <article class="article">
-          <h1>Avatar</h1>
+          <h1>Alert</h1>
           <div class="inner-container">
-            <h2>Profile Avatar</h2>
-            <div class="showcase">
-              <img class="avatar x-sm" src="/kalam-profile.jpg" alt="avatar" />
-              <img class="avatar sm" src="/kalam-profile.jpg" alt="avatar" />
-              <img class="avatar md" src="/kalam-profile.jpg" alt="avatar" />
-              <img class="avatar lg" src="/kalam-profile.jpg" alt="avatar" />
-              <img class="avatar x-lg" src="/kalam-profile.jpg" alt="avatar" />
+            <h2>Default Alert</h2>
+            <div class="showcase-column">
+              <div class="alert primary">Here goes our primary alert!</div>
+              <div class="alert secondary">Here goes our secondary alert!</div>
+              <div class="alert success">
+                <i class="fa-solid fa-circle-check"></i>Here goes our success
+                alert!
+              </div>
+              <div class="alert warning">
+                <i class="fa-solid fa-triangle-exclamation"></i>Here goes our
+                warning alert!
+              </div>
+              <div class="alert error">
+                <i class="fa-solid fa-bug"></i>Here goes our error alert!
+              </div>
+              <div class="alert info">
+                <i class="fa-solid fa-circle-info"></i>Here goes our info alert!
+              </div>
             </div>
             <iframe
-              src="https://carbon.now.sh/embed/uQJkWwf8Gnes8oDPK8XG"
+              src="https://carbon.now.sh/embed/7tulJgj9Q3wS2YsGImPN"
               style="
                 width: 100%;
                 height: 100%;
@@ -102,36 +113,31 @@
             </iframe>
           </div>
           <div class="inner-container">
-            <h2>Square Avatar</h2>
-            <div class="showcase">
-              <img
-                class="avatar square x-sm"
-                src="/kalam-profile.jpg"
-                alt="avatar"
-              />
-              <img
-                class="avatar square sm"
-                src="/kalam-profile.jpg"
-                alt="avatar"
-              />
-              <img
-                class="avatar square md"
-                src="/kalam-profile.jpg"
-                alt="avatar"
-              />
-              <img
-                class="avatar square lg"
-                src="/kalam-profile.jpg"
-                alt="avatar"
-              />
-              <img
-                class="avatar square x-lg"
-                src="/kalam-profile.jpg"
-                alt="avatar"
-              />
+            <h2>Outline Alert</h2>
+            <div class="showcase-column">
+              <div class="alert primary-outline">
+                Here goes our primary alert!
+              </div>
+              <div class="alert secondary-outline">
+                Here goes our secondary alert!
+              </div>
+              <div class="alert success-outline">
+                <i class="fa-solid fa-circle-check"></i>Here goes our success
+                alert!
+              </div>
+              <div class="alert warning-outline">
+                <i class="fa-solid fa-triangle-exclamation"></i>Here goes our
+                warning alert!
+              </div>
+              <div class="alert error-outline">
+                <i class="fa-solid fa-bug"></i>Here goes our error alert!
+              </div>
+              <div class="alert info-outline">
+                <i class="fa-solid fa-circle-info"></i>Here goes our info alert!
+              </div>
             </div>
             <iframe
-              src="https://carbon.now.sh/embed/gbD86MfaEwdYmtKfRoOD"
+              src="https://carbon.now.sh/embed/6aHEt92TGkXyBU2XMTUp"
               style="
                 width: 100%;
                 height: 100%;
@@ -144,16 +150,50 @@
             </iframe>
           </div>
           <div class="inner-container">
-            <h2>Text Avatar</h2>
-            <div class="showcase">
-              <div class="avatar text sm" alt="avatar">LM</div>
-              <div class="avatar text md" alt="avatar">LM</div>
-              <div class="avatar text lg" alt="avatar">LM</div>
-              <div class="avatar text x-lg" alt="avatar">LM</div>
-              <div class="avatar square text md" alt="avatar">LM</div>
+            <h2>Alert with a text link</h2>
+            <div class="showcase-column">
+              <div class="alert primary">
+                Here goes our primary alert!<a class="alert-link" href=""
+                  >Click Me</a
+                >
+              </div>
+              <div class="alert success">
+                <i class="fa-solid fa-circle-check"></i>Here goes our success
+                alert!<a class="alert-link" href="">Click Me</a>
+              </div>
             </div>
             <iframe
-              src="https://carbon.now.sh/embed/613QRPP07n0XJmr1rmGd"
+              src="https://carbon.now.sh/embed/W04rS2W9MVcjTo2fo1jP"
+              style="
+                width: 100%;
+                height: 100%;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="inner-container">
+            <h2>Alert with a close button</h2>
+            <div class="showcase-column">
+              <div class="alert primary">
+                Here goes our primary alert!
+                <button class="btn-alert-close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="alert success">
+                <i class="fa-solid fa-circle-check"></i>Here goes our success
+                alert!
+                <button class="btn-alert-close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed/4JVqDRE5P53dXAcIeFvj"
               style="
                 width: 100%;
                 height: 100%;
