@@ -3,6 +3,8 @@
 :root {
   --white: #fff;
   --black: #000;
+  --doc-border: #808080;
+  --showcase-bg: #f5f5f5;
   --alert-primary: #1da1f2;
   --alert-primary-bg: #ceeafc;
   --alert-secondary: #fff;

@@ -75,7 +75,7 @@
 .info-outline {
   color: var(--alert-info);
   border: 0.01rem solid var(--alert-info);
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 /* || Alert with text link || */
