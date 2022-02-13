@@ -41,8 +41,8 @@
   color: var(--white);
   background-color: var(--dnd);
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
 }
 
 .container-badge > i {
