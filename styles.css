@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
+@import url("/components/avatar.css");
+@import url("/components/alert.css");
+
 :root {
   --white: #fff;
   --black: #000;
@@ -19,4 +22,8 @@
   --alert-info: #4447ee;
   --alert-info-bg: #c1c2f9;
   --alert-close-hover: #ff0000;
+  --online: #10b394;
+  --offline: #808080;
+  --idle: #e69409;
+  --dnd: #ff0000;
 }
