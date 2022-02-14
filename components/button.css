@@ -1,0 +1,137 @@
+.btn {
+  padding: 1rem;
+  color: var(--white);
+  background-color: var(--primary);
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  transition: 0.1s;
+}
+
+/* || Filled Button || */
+.btn-primary {
+  background-color: var(--primary);
+}
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+}
+.btn-secondary:hover {
+  background-color: var(--secondary-hover);
+}
+
+.btn-success {
+  background-color: var(--success);
+}
+.btn-success:hover {
+  background-color: var(--success-hover);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+}
+.btn-warning:hover {
+  background-color: var(--warning-hover);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+}
+.btn-danger:hover {
+  background-color: var(--danger-hover);
+}
+
+/* || Outline Button || */
+.btn-primary-outline {
+  color: var(--primary);
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+}
+.btn-primary-outline:hover {
+  color: var(--white);
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary-outline {
+  color: var(--secondary);
+  background-color: var(--white);
+  border: 1px solid var(--secondary);
+}
+.btn-secondary-outline:hover {
+  color: var(--white);
+  background-color: var(--secondary-hover);
+}
+
+.btn-success-outline {
+  color: var(--success);
+  background-color: var(--white);
+  border: 1px solid var(--success);
+}
+.btn-success-outline:hover {
+  color: var(--white);
+  background-color: var(--success-hover);
+}
+
+.btn-warning-outline {
+  color: var(--warning);
+  background-color: var(--white);
+  border: 1px solid var(--warning);
+}
+.btn-warning-outline:hover {
+  color: var(--white);
+  background-color: var(--warning-hover);
+}
+
+.btn-danger-outline {
+  color: var(--danger);
+  background-color: var(--white);
+  border: 1px solid var(--danger);
+}
+.btn-danger-outline:hover {
+  color: var(--white);
+  background-color: var(--danger-hover);
+}
+
+/* || Link Button || */
+.btn-link {
+  text-decoration: none;
+  color: var(--white);
+}
+.btn-link:hover {
+  color: var(--btn-link-hover);
+  background-color: var(--btn-link-bg-hover);
+}
+
+/* || Icon Button || */
+.btn-icon {
+  font-size: 2rem;
+  color: var(--primary);
+  cursor: pointer;
+}
+.btn-icon:hover {
+  color: var(--primary-hover);
+  transition: 0.2s;
+}
+
+/* || Floating Action Button || */
+.btn-floating-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: var(--white);
+  background-color: var(--primary);
+}
+.btn-floating-action:hover {
+  background-color: var(--primary-hover);
+}

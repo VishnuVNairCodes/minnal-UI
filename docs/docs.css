@@ -79,10 +79,12 @@
 }
 .showcase {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   background-color: var(--showcase-bg);
   padding: 3rem;
   border-radius: 0.3rem;
+  gap: 1rem;
 }
 .showcase-column {
   display: flex;
