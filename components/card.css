@@ -117,7 +117,7 @@
 }
 
 .card-price-offer {
-  color: #059669;
+  color: var(--card-offer);
   font-weight: bold;
 }
 
