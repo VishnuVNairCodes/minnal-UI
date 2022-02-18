@@ -3,6 +3,8 @@
 @import url("/components/avatar.css");
 @import url("/components/alert.css");
 @import url("/components/badge.css");
+@import url("/components/button.css");
+@import url("/components/card.css");
 
 :root {
   --white: #fff;
@@ -40,4 +42,12 @@
   --btn-link-bg: #0ea5e9;
   --btn-link-hover: #053f59;
   --btn-link-bg-hover: #47bef4;
+  --card-border: #ebebeb;
+  --card-img-border: #f6f6f6;
+  --card-offer: #059669;
+  --wishlist-hover: #ff0000;
+  --card-dismiss: #d3d3d3;
+  --card-shadow-1: rgba(0, 0, 0, 0.2);
+  --card-shadow-2: rgba(0, 0, 0, 0.19);
+  --text-overlay-bg: #ff0000;
 }

@@ -1,4 +1,8 @@
 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
   padding: 1rem;
   color: var(--white);
   background-color: var(--primary);
@@ -111,6 +115,8 @@
 .btn-icon {
   font-size: 2rem;
   color: var(--primary);
+  border: none;
+  background-color: transparent;
   cursor: pointer;
 }
 .btn-icon:hover {
