@@ -68,9 +68,7 @@
   padding: 1.5rem;
   gap: 3rem;
 }
-.article > h1 {
-  font-size: 2rem;
-}
+
 .inner-container {
   display: flex;
   flex: 1;
