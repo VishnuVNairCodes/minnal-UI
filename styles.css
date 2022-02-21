@@ -50,4 +50,5 @@
   --card-shadow-1: rgba(0, 0, 0, 0.2);
   --card-shadow-2: rgba(0, 0, 0, 0.19);
   --text-overlay-bg: #ff0000;
+  --input-border: #000;
 }
