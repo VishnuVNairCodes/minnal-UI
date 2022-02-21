@@ -52,4 +52,7 @@
   --card-shadow-1: rgba(0, 0, 0, 0.2);
   --card-shadow-2: rgba(0, 0, 0, 0.19);
   --text-overlay-bg: #ff0000;
+  --stacked-list-bg: #ffffff;
+  --stacked-list-border: #808080;
+  --stacked-list-hover: #f0f0f0;
 }
