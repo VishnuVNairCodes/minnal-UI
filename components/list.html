@@ -13,7 +13,7 @@
     />
     <link href="/styles.css" rel="stylesheet" type="text/css" />
     <link href="/docs/docs.css" rel="stylesheet" type="text/css" />
-    <link href="image.css" rel="stylesheet" type="text/css" />
+    <link href="list.css" rel="stylesheet" type="text/css" />
     <title>Get Started</title>
   </head>
   <body>
@@ -31,7 +31,6 @@
       <div class="content">
         <aside class="aside">
           <ul>
-            <!-- <li class="list aside-heading">Components</li> -->
             <li class="list aside-list">
               <a class="link" href="/components/avatar.html">Avatar</a>
             </li>
@@ -81,15 +80,17 @@
           </ul>
         </aside>
         <article class="article">
-          <h1>Image</h1>
+          <h1>List</h1>
           <div class="inner-container">
-            <h2>Responsive Image</h2>
+            <h2>Unordered List</h2>
             <div class="showcase">
-              <img
-                src="/varkala-beach.jpg"
-                alt="responsive"
-                class="img-responsive"
-              />
+              <ul class="list-unordered">
+                <h4>Categories</h4>
+                <li>Women's clothing</li>
+                <li>Men's clothing</li>
+                <li>Children's clothing</li>
+                <li>Baby's clothing</li>
+              </ul>
             </div>
             <iframe
               src="https://carbon.now.sh/embed/67h4GUudqrWvRQgNbtXi"
@@ -105,13 +106,57 @@
             </iframe>
           </div>
           <div class="inner-container">
-            <h2>Circular Image</h2>
+            <h2>Ordered List</h2>
             <div class="showcase">
-              <img
-                src="/varkala-beach.jpg"
-                alt="responsive"
-                class="img-circular"
-              />
+              <ol class="list-ordered">
+                <h4>Categories</h4>
+                <li>Women's clothing</li>
+                <li>Men's clothing</li>
+                <li>Children's clothing</li>
+                <li>Baby's clothing</li>
+              </ol>
+            </div>
+            <iframe
+              src="https://carbon.now.sh/embed/67h4GUudqrWvRQgNbtXi"
+              style="
+                width: 100%;
+                height: 100%;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="inner-container">
+            <h2>Stacked List</h2>
+            <div class="showcase">
+              <ol class="list-stacked">
+                <h6 class="list-stacked-heading">Notifications</h6>
+                <li class="list-stacked-item">
+                  Nikola Tesla, James Clerk Maxwell and Niels Bohr commented on
+                  your photo
+                </li>
+                <li class="list-stacked-item">
+                  Benedict Augustin Morel and Louis Neel had birthdays on
+                  November 22
+                </li>
+                <li class="list-stacked-item">
+                  Max Planck, Thomas Edison and 33 other people like your photo
+                </li>
+                <li class="list-stacked-item">
+                  Carl Sagan, Neil deGrasse Tyson and 2 others posted in
+                  Astrotalks
+                </li>
+                <li class="list-stacked-item">
+                  Marie Curie changed the time of her event Nobel Afterparty
+                </li>
+                <li class="list-stacked-item">
+                  Erwin Schrodinger invited you to his event Box opening in
+                  Cat's Group
+                </li>
+              </ol>
             </div>
             <iframe
               src="https://carbon.now.sh/embed/67h4GUudqrWvRQgNbtXi"
