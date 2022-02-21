@@ -1,0 +1,101 @@
+.alert {
+  display: flex;
+  flex-basis: 90%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  color: var(--alert-primary);
+  background-color: var(--alert-primary-bg);
+}
+
+/* || Default Alert || */
+.alert.primary {
+  color: var(--alert-primary);
+  background-color: var(--alert-primary-bg);
+}
+
+.alert.secondary {
+  color: var(--alert-secondary);
+  background-color: var(--alert-secondary-bg);
+}
+
+.alert.success {
+  color: var(--alert-success);
+  background-color: var(--alert-success-bg);
+}
+
+.alert.warning {
+  color: var(--alert-warning);
+  background-color: var(--alert-warning-bg);
+}
+
+.alert.error {
+  color: var(--alert-error);
+  background-color: var(--alert-error-bg);
+}
+
+.alert.info {
+  color: var(--alert-info);
+  background-color: var(--alert-info-bg);
+}
+
+/* || Outline Alert || */
+.alert.primary-outline {
+  color: var(--alert-primary);
+  border: 0.01rem solid var(--alert-primary);
+  background-color: var(--white);
+}
+
+.alert.secondary-outline {
+  color: var(--black);
+  border: 0.01rem solid var(--black);
+  background-color: var(--white);
+}
+
+.alert.success-outline {
+  color: var(--alert-success);
+  border: 0.01rem solid var(--alert-success);
+  background-color: var(--white);
+}
+
+.alert.warning-outline {
+  color: var(--alert-warning);
+  border: 0.01rem solid var(--alert-warning);
+  background-color: var(--white);
+}
+
+.alert.error-outline {
+  color: var(--alert-error);
+  border: 0.01rem solid var(--alert-error);
+  background-color: var(--white);
+}
+
+.alert.info-outline {
+  color: var(--alert-info);
+  border: 0.01rem solid var(--alert-info);
+  background-color: var(--white);
+}
+
+/* || Alert with text link || */
+.alert-link {
+  color: inherit;
+}
+.alert-link:hover {
+  font-weight: bold;
+  transition: 0.1s;
+}
+
+/* || Alert with close button || */
+.btn-alert-close {
+  margin-left: auto;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: 1rem;
+}
+.btn-alert-close:hover {
+  color: var(--alert-close-hover);
+  transform: 0.3s;
+}

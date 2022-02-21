@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+@import url("/components/avatar.css");
+@import url("/components/alert.css");
+@import url("/components/badge.css");
+@import url("/components/button.css");
+@import url("/components/card.css");
+@import url("/components/image.css");
+@import url("/components/typography.css");
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --doc-border: #808080;
+  --showcase-bg: #f5f5f5;
+  --primary: #0ea5e9;
+  --primary-hover: #0284c7;
+  --secondary: #71717a;
+  --secondary-hover: #52525b;
+  --success: #34d399;
+  --success-hover: #10b981;
+  --warning: #ffa500;
+  --warning-hover: #ff8c00;
+  --danger: #dc2626;
+  --danger-hover: #b91c1c;
+  --alert-primary: #1da1f2;
+  --alert-primary-bg: #ceeafc;
+  --alert-secondary: #fff;
+  --alert-secondary-bg: #0967a0;
+  --alert-secondary-outline: #000;
+  --alert-success: #10b394;
+  --alert-success-bg: #c8faf0;
+  --alert-warning: #e69409;
+  --alert-warning-bg: #fff9cd;
+  --alert-error: #dc2626;
+  --alert-error-bg: #f6c7c7;
+  --alert-info: #4447ee;
+  --alert-info-bg: #c1c2f9;
+  --alert-close-hover: #ff0000;
+  --online: #10b394;
+  --offline: #808080;
+  --idle: #e69409;
+  --dnd: #ff0000;
+  --btn-link-bg: #0ea5e9;
+  --btn-link-hover: #053f59;
+  --btn-link-bg-hover: #47bef4;
+  --card-border: #ebebeb;
+  --card-img-border: #f6f6f6;
+  --card-offer: #059669;
+  --wishlist-hover: #ff0000;
+  --card-dismiss: #d3d3d3;
+  --card-shadow-1: rgba(0, 0, 0, 0.2);
+  --card-shadow-2: rgba(0, 0, 0, 0.19);
+  --text-overlay-bg: #ff0000;
+  --stacked-list-bg: #ffffff;
+  --stacked-list-border: #808080;
+  --stacked-list-hover: #f0f0f0;
+}

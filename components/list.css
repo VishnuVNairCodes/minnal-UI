@@ -1,0 +1,29 @@
+.list-ordered,
+.list-unordered,
+.list-stacked {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list-stacked {
+  list-style: none;
+  gap: 0;
+  background-color: var(--stacked-list-bg);
+  border: 1px solid var(--stacked-list-border);
+}
+
+.list-stacked-heading {
+  padding: 7px;
+}
+
+.list-stacked-item {
+  padding: 1.5rem;
+  border-top: 1px solid var(--stacked-list-border);
+}
+
+.list-stacked-item:hover {
+  background-color: var(--stacked-list-hover);
+  cursor: pointer;
+  transition: 0.3s;
+}

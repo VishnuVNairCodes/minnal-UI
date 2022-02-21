@@ -1,0 +1,128 @@
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20.5rem;
+  padding: 3px;
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  gap: 0.8rem;
+  background-color: var(--white);
+}
+
+.card-container.horizontal {
+  flex-direction: row;
+  width: 41rem;
+  align-items: center;
+}
+
+.card-container.shadow {
+  box-shadow: 0 4px 8px 0 var(--card-shadow-1),
+    0 6px 20px 0 var(--card-shadow-2);
+}
+
+.card-container > .btn-icon {
+  color: var(--card-dismiss);
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+.card-container > .btn-icon:hover {
+  color: var(--black);
+  transition: 0.2s;
+}
+
+.card-badge {
+  position: absolute;
+  top: 1.2rem;
+  left: 0;
+  z-index: 1;
+  color: var(--white);
+  background-color: var(--primary);
+  font-size: 0.9rem;
+  padding: 3px;
+  border-radius: 0 7px 7px 0;
+}
+
+.card-image-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4rem;
+  color: var(--white);
+  background-color: var(--text-overlay-bg);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-image {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 2px;
+  object-fit: cover;
+  border: 1px solid var(--card-img-border);
+}
+
+.card-image.overlay {
+  opacity: 0.3;
+}
+
+.card-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  gap: 1rem;
+}
+
+.card-details-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-details-header > button {
+  font-size: 1.8rem;
+}
+.card-details-header > button:hover {
+  color: var(--wishlist-hover);
+}
+
+.card-text-container > h1 {
+  font-size: 1.1rem;
+}
+
+.card-price-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.card-price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-price-old {
+  text-decoration: line-through;
+}
+
+.card-price-offer {
+  color: var(--card-offer);
+  font-weight: bold;
+}
+
+.card-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
