@@ -7,6 +7,8 @@
 @import url("/components/card.css");
 @import url("/components/image.css");
 @import url("/components/typography.css");
+@import url("/components/list.css");
+@import url("/components/input.css");
 
 :root {
   --white: #fff;
