@@ -6,9 +6,10 @@
 @import url("/components/button.css");
 @import url("/components/card.css");
 @import url("/components/image.css");
-@import url("/components/typography.css");
-@import url("/components/list.css");
 @import url("/components/input.css");
+@import url("/components/list.css");
+@import url("/components/navigation.css");
+@import url("/components/typography.css");
 
 :root {
   --white: #fff;
