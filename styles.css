@@ -10,6 +10,8 @@
 @import url("/components/list.css");
 @import url("/components/navigation.css");
 @import url("/components/typography.css");
+@import url("/components/modal.css");
+@import url("/components/rating.css");
 
 :root {
   --white: #fff;
@@ -59,4 +61,5 @@
   --stacked-list-border: #808080;
   --stacked-list-hover: #f0f0f0;
   --input-border: #000;
+  --rating: #03a685;
 }
