@@ -1,0 +1,30 @@
+.toast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 4px;
+  gap: 3rem;
+  font-weight: bold;
+  z-index: var(--z-index-toast);
+  box-shadow: 2px 2px 5px var(--secondary);
+}
+
+.toast-btn-close {
+  margin-left: auto;
+  color: var(--secondary);
+}
+.toast-btn-close:hover {
+  color: var(--secondary);
+}
+
+.toast-dark {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.toast-light {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--secondary);
+}
