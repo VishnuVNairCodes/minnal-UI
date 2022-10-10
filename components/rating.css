@@ -18,6 +18,10 @@
 }
 
 /* ||Rating Badge */
+.showcase-rating-badge {
+  position: relative;
+}
+
 .rating-badge-container {
   display: flex;
   text-align: left;
