@@ -1,5 +1,5 @@
 # Minnal-UI
-Build your web apps lightning fast by reusing CSS classes
+Build your web applications lightning fast by reusing CSS classes
 
 ## Technologies Used -
 HTML </br> 
