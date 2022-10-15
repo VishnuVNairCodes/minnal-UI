@@ -24,5 +24,5 @@ Toast </br>
 Documentation site : [Minnal UI](https://minnal-ui.netlify.app/)
 
 ## ScreenShots -
-<img width="1440" alt="minnal-ui-1" src="https://user-images.githubusercontent.com/87368952/195973474-5a7f89c5-829c-4cd1-9fab-f47c0586dcd2.png"m
+<img width="1440" alt="minnal-ui-1" src="https://user-images.githubusercontent.com/87368952/195973474-5a7f89c5-829c-4cd1-9fab-f47c0586dcd2.png"/>
 
