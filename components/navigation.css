@@ -3,14 +3,14 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 5rem;
+  height: 8rem;
   background-color: var(--white);
 }
 
 .navigation-bar {
   display: flex;
   width: 83%;
-  padding: 10px;
+  padding: 1rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -30,11 +30,11 @@
 }
 
 .navigation-action .btn {
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 4px;
   text-decoration: none;
 }
 
 .navigation-action .btn-icon {
-  font-size: 1.2rem;
+  font-size: 2rem;
 }

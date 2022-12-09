@@ -66,4 +66,9 @@
   --input-border: #000;
   --rating: #03a685;
   --z-index-toast: 9999;
+  --text-gray: #6b7280;
+}
+
+html {
+  font-size: 62.5%;
 }

@@ -3,9 +3,9 @@
   flex-basis: 90%;
   align-items: center;
   justify-content: flex-start;
-  gap: 0.5rem;
-  padding: 1rem;
-  border-radius: 0.2rem;
+  gap: 8px;
+  padding: 1.6rem;
+  border-radius: 4px;
   color: var(--alert-primary);
   background-color: var(--alert-primary-bg);
 }
@@ -44,37 +44,37 @@
 /* || Outline Alert || */
 .alert.primary-outline {
   color: var(--alert-primary);
-  border: 0.01rem solid var(--alert-primary);
+  border: 1px solid var(--alert-primary);
   background-color: var(--white);
 }
 
 .alert.secondary-outline {
   color: var(--black);
-  border: 0.01rem solid var(--black);
+  border: 1px solid var(--black);
   background-color: var(--white);
 }
 
 .alert.success-outline {
   color: var(--alert-success);
-  border: 0.01rem solid var(--alert-success);
+  border: 1px solid var(--alert-success);
   background-color: var(--white);
 }
 
 .alert.warning-outline {
   color: var(--alert-warning);
-  border: 0.01rem solid var(--alert-warning);
+  border: 1px solid var(--alert-warning);
   background-color: var(--white);
 }
 
 .alert.error-outline {
   color: var(--alert-error);
-  border: 0.01rem solid var(--alert-error);
+  border: 1px solid var(--alert-error);
   background-color: var(--white);
 }
 
 .alert.info-outline {
   color: var(--alert-info);
-  border: 0.01rem solid var(--alert-info);
+  border: 1px solid var(--alert-info);
   background-color: var(--white);
 }
 
@@ -84,7 +84,7 @@
 }
 .alert-link:hover {
   font-weight: bold;
-  transition: 0.1s;
+  transition: font-weight 0.3s;
 }
 
 /* || Alert with close button || */
@@ -93,9 +93,9 @@
   border: none;
   background-color: inherit;
   color: inherit;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 .btn-alert-close:hover {
   color: var(--alert-close-hover);
-  transform: 0.3s;
+  transition: color 0.3s;
 }

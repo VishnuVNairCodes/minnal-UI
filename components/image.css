@@ -4,8 +4,8 @@
 }
 
 .img-circular {
-  width: 20rem;
-  height: 20rem;
+  width: 32rem;
+  height: 32rem;
   border-radius: 50%;
   object-fit: cover;
 }

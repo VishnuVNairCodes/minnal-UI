@@ -3,7 +3,7 @@
 .list-stacked {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.6rem;
 }
 
 .list-stacked {
@@ -18,12 +18,12 @@
 }
 
 .list-stacked-item {
-  padding: 1.5rem;
+  padding: 2.4rem;
   border-top: 1px solid var(--stacked-list-border);
+  cursor: pointer;
 }
 
 .list-stacked-item:hover {
   background-color: var(--stacked-list-hover);
-  cursor: pointer;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }

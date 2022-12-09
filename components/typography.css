@@ -1,42 +1,48 @@
 /* || Headings || */
 .h1,
 h1 {
-  font-size: 3em;
+  font-size: 4.8rem;
+  line-height: 6.4rem;
 }
 
 .h2,
 h2 {
-  font-size: 2.25em;
+  font-size: 3.2rem;
+  line-height: 4rem;
 }
 
 .h3,
 h3 {
-  font-size: 1.76em;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
 }
 
 .h4,
 h4 {
-  font-size: 1.5em;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 .h5,
 h5 {
-  font-size: 1.25em;
+  font-size: 8px;
+  line-height: 1.6rem;
 }
 
 .h6,
 h6 {
-  font-size: 1em;
+  font-size: 8px;
+  line-height: 1.6rem;
 }
 
 /* || Small Text || */
 .text-small {
-  font-size: 0.8rem;
+  font-size: 8px;
 }
 
 /* || Gray Text || */
 .text-gray {
-  color: #6b7280;
+  color: var(--text-gray);
 }
 
 /* || Aligned Text || */

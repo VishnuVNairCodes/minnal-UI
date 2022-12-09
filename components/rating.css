@@ -2,8 +2,8 @@
 .rating-input-container {
   display: flex;
   background-color: var(--white);
-  font-size: 2rem;
-  padding: 1rem;
+  font-size: 3.2rem;
+  padding: 1.6rem;
 }
 
 .rating-input {
@@ -27,7 +27,7 @@
   text-align: left;
   gap: 4px;
   background-color: var(--white);
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 700;
   padding: 4px;
   border-radius: 2px;
