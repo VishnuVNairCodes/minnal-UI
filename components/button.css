@@ -4,8 +4,8 @@
   justify-content: center;
   gap: var(--sp-fractions3);
   padding: var(--sp-tens2);
-  color: var(--white);
-  background-color: var(--primary);
+  color: var(--clr-white);
+  background-color: var(--clr-primary);
   border: none;
   border-radius: var(--br-1);
   cursor: pointer;
@@ -16,111 +16,111 @@
 
 /* || Filled Button || */
 .btn-primary {
-  background-color: var(--primary);
+  background-color: var(--clr-primary);
 }
 .btn-primary:hover {
-  background-color: var(--primary-hover);
+  background-color: var(--clr-primary-hover);
 }
 
 .btn-secondary {
-  background-color: var(--secondary);
+  background-color: var(--clr-secondary);
 }
 .btn-secondary:hover {
-  background-color: var(--secondary-hover);
+  background-color: var(--clr-secondary-hover);
 }
 
 .btn-success {
-  background-color: var(--success);
+  background-color: var(--clr-success);
 }
 .btn-success:hover {
-  background-color: var(--success-hover);
+  background-color: var(--clr-success-hover);
 }
 
 .btn-warning {
-  background-color: var(--warning);
+  background-color: var(--clr-warning);
 }
 .btn-warning:hover {
-  background-color: var(--warning-hover);
+  background-color: var(--clr-warning-hover);
 }
 
 .btn-danger {
-  background-color: var(--danger);
+  background-color: var(--clr-danger);
 }
 .btn-danger:hover {
-  background-color: var(--danger-hover);
+  background-color: var(--clr-danger-hover);
 }
 
 /* || Outline Button || */
 .btn-primary-outline {
-  color: var(--primary);
-  background-color: var(--white);
-  border: 1px solid var(--primary);
+  color: var(--clr-primary);
+  background-color: var(--clr-white);
+  border: 1px solid var(--clr-primary);
 }
 .btn-primary-outline:hover {
-  color: var(--white);
-  background-color: var(--primary-hover);
+  color: var(--clr-white);
+  background-color: var(--clr-primary-hover);
 }
 
 .btn-secondary-outline {
-  color: var(--secondary);
-  background-color: var(--white);
-  border: 1px solid var(--secondary);
+  color: var(--clr-secondary);
+  background-color: var(--clr-white);
+  border: 1px solid var(--clr-secondary);
 }
 .btn-secondary-outline:hover {
-  color: var(--white);
-  background-color: var(--secondary-hover);
+  color: var(--clr-white);
+  background-color: var(--clr-secondary-hover);
 }
 
 .btn-success-outline {
-  color: var(--success);
-  background-color: var(--white);
-  border: 1px solid var(--success);
+  color: var(--clr-success);
+  background-color: var(--clr-white);
+  border: 1px solid var(--clr-success);
 }
 .btn-success-outline:hover {
-  color: var(--white);
-  background-color: var(--success-hover);
+  color: var(--clr-white);
+  background-color: var(--clr-success-hover);
 }
 
 .btn-warning-outline {
-  color: var(--warning);
-  background-color: var(--white);
-  border: 1px solid var(--warning);
+  color: var(--clr-warning);
+  background-color: var(--clr-white);
+  border: 1px solid var(--clr-warning);
 }
 .btn-warning-outline:hover {
-  color: var(--white);
-  background-color: var(--warning-hover);
+  color: var(--clr-white);
+  background-color: var(--clr-warning-hover);
 }
 
 .btn-danger-outline {
-  color: var(--danger);
-  background-color: var(--white);
-  border: 1px solid var(--danger);
+  color: var(--clr-danger);
+  background-color: var(--clr-white);
+  border: 1px solid var(--clr-danger);
 }
 .btn-danger-outline:hover {
-  color: var(--white);
-  background-color: var(--danger-hover);
+  color: var(--clr-white);
+  background-color: var(--clr-danger-hover);
 }
 
 /* || Link Button || */
 .btn-link {
   text-decoration: none;
-  color: var(--white);
+  color: var(--clr-white);
 }
 .btn-link:hover {
-  color: var(--btn-link-hover);
-  background-color: var(--btn-link-bg-hover);
+  color: var(--clr-btn-link-hover);
+  background-color: var(--clr-btn-link-bg-hover);
 }
 
 /* || Icon Button || */
 .btn-icon {
   font-size: var(--f-thirtys2);
-  color: var(--primary);
+  color: var(--clr-primary);
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 .btn-icon:hover {
-  color: var(--primary-hover);
+  color: var(--clr-primary-hover);
   transition: color 0.3s;
 }
 
@@ -135,11 +135,11 @@
   border: none;
   font-size: var(--f-twentys2);
   padding: var(--sp-tens2);
-  color: var(--white);
-  background-color: var(--primary);
+  color: var(--clr-white);
+  background-color: var(--clr-primary);
   cursor: pointer;
 }
 .btn-floating-action:hover {
-  background-color: var(--primary-hover);
+  background-color: var(--clr-primary-hover);
   transition: background-color 0.3s;
 }

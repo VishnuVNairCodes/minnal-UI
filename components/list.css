@@ -9,8 +9,8 @@
 .list-stacked {
   list-style: none;
   gap: 0;
-  background-color: var(--stacked-list-bg);
-  border: 1px solid var(--stacked-list-border);
+  background-color: var(--clr-stacked-list-bg);
+  border: 1px solid var(--clr-stacked-list-border);
 }
 
 .list-stacked-heading {
@@ -19,11 +19,11 @@
 
 .list-stacked-item {
   padding: var(--sp-twentys);
-  border-top: 1px solid var(--stacked-list-border);
+  border-top: 1px solid var(--clr-stacked-list-border);
   cursor: pointer;
 }
 
 .list-stacked-item:hover {
-  background-color: var(--stacked-list-hover);
+  background-color: var(--clr-stacked-list-hover);
   transition: background-color 0.3s;
 }

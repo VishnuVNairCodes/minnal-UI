@@ -4,10 +4,10 @@
   flex-direction: column;
   width: 33rem;
   padding: var(--sp-fractions2);
-  border: 1px solid var(--card-border);
+  border: 1px solid var(--clr-card-border);
   border-radius: var(--br-1);
   gap: var(--sp-tens1);
-  background-color: var(--white);
+  background-color: var(--clr-white);
 }
 
 .card-container.horizontal {
@@ -17,12 +17,12 @@
 }
 
 .card-container.shadow {
-  box-shadow: 0 4px 8px 0 var(--card-shadow-1),
-    0 6px 2rem 0 var(--card-shadow-2);
+  box-shadow: 0 var(--sp-fractions2) var(--sp-fractions3) 0 var(--sdw-card-1),
+    0 var(--sp-fractions3) var(--sp-twentys) 0 var(--sdw-card-2);
 }
 
 .card-container > .btn-icon {
-  color: var(--card-dismiss);
+  color: var(--clr-card-dismiss);
   position: absolute;
   top: var(--sp-tens2);
   right: var(--sp-tens2);
@@ -30,7 +30,7 @@
   z-index: 1;
 }
 .card-container > .btn-icon:hover {
-  color: var(--black);
+  color: var(--clr-black);
   transition: color 0.3s;
 }
 
@@ -39,8 +39,8 @@
   top: var(--sp-tens2);
   left: 0;
   z-index: 1;
-  color: var(--white);
-  background-color: var(--primary);
+  color: var(--clr-white);
+  background-color: var(--clr-primary);
   font-size: var(--f-tens3);
   padding: var(--sp-fractions2);
   border-radius: 0 var(--br-2) var(--br-2) 0;
@@ -52,8 +52,8 @@
   top: 50%;
   transform: translate(-50%, -50%);
   font-size: var(--f-twentys2);
-  color: var(--white);
-  background-color: var(--text-overlay-bg);
+  color: var(--clr-white);
+  background-color: var(--clr-text-overlay-bg);
   padding: var(--sp-fractions2);
   border-radius: var(--br-1);
   text-align: center;
@@ -70,7 +70,7 @@
   width: 32rem;
   border-radius: var(--br-1);
   object-fit: cover;
-  border: 1px solid var(--card-img-border);
+  border: 1px solid var(--clr-card-img-border);
 }
 
 .rating-badge-container {
@@ -100,7 +100,7 @@
   font-size: var(--f-thirtys1);
 }
 .card-details-header > button:hover {
-  color: var(--wishlist-hover);
+  color: var(--clr-wishlist-hover);
   transition: color 0.3s;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .card-price-offer {
-  color: var(--card-offer);
+  color: var(--clr-card-offer);
   font-weight: bold;
 }
 

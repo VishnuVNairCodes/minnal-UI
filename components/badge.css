@@ -8,27 +8,27 @@
   width: 25%;
   height: 25%;
   border-radius: 50%;
-  background-color: var(--online);
-  border: 2px solid var(--white);
+  background-color: var(--clr-online);
+  border: 2px solid var(--clr-white);
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
 .badge-status.online {
-  background-color: var(--online);
+  background-color: var(--clr-online);
 }
 
 .badge-status.offline {
-  background-color: var(--offline);
+  background-color: var(--clr-offline);
 }
 
 .badge-status.idle {
-  background-color: var(--idle);
+  background-color: var(--clr-idle);
 }
 
 .badge-status.dnd {
-  background-color: var(--dnd);
+  background-color: var(--clr-dnd);
 }
 
 .badge-notification {
@@ -38,8 +38,8 @@
   width: var(--sp-tens2);
   height: var(--sp-tens2);
   border-radius: 50%;
-  color: var(--white);
-  background-color: var(--dnd);
+  color: var(--clr-white);
+  background-color: var(--clr-dnd);
   position: absolute;
   top: 0;
   right: 0;

@@ -20,7 +20,7 @@
 }
 .link {
   text-decoration: none;
-  color: var(--black);
+  color: var(--clr-black);
 }
 .link:hover,
 .link-active {
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   padding: var(--sp-thirtys);
-  border-bottom: 1px solid var(--doc-border);
+  border-bottom: 1px solid var(--clr-doc-border);
 }
 .nav-brand-name {
   font-weight: var(--fwt-bold);
@@ -47,7 +47,7 @@
   font-size: var(--f-twentys1);
 }
 .nav-contact-link {
-  color: var(--secondary);
+  color: var(--clr-secondary);
 }
 
 /* || content || */
@@ -60,7 +60,7 @@
 .aside {
   flex: 1;
   padding: var(--sp-tens2);
-  border-right: 1px solid var(--doc-border);
+  border-right: 1px solid var(--clr-doc-border);
 }
 .aside-list {
   margin-top: var(--sp-tens2);
@@ -86,7 +86,7 @@
 .showcase-column {
   display: flex;
   justify-content: space-around;
-  background-color: var(--showcase-bg);
+  background-color: var(--clr-showcase-bg);
   padding: var(--sp-fourtys);
   border-radius: var(--br-1);
 }

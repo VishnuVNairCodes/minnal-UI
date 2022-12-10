@@ -12,24 +12,24 @@
   width: 100%;
   padding: var(--sp-fractions3);
   border-style: solid;
-  border-color: var(--input-border);
+  border-color: var(--clr-input-border);
   border-radius: var(--br-1);
-  outline-color: var(--primary);
+  outline-color: var(--clr-primary);
 }
 
 .textbox.success {
-  border-color: var(--success);
-  outline-color: var(--success);
+  border-color: var(--clr-success);
+  outline-color: var(--clr-success);
 }
 
 .textbox.warning {
-  border-color: var(--warning);
-  outline-color: var(--warning);
+  border-color: var(--clr-warning);
+  outline-color: var(--clr-warning);
 }
 
 .textbox.error {
-  border-color: var(--danger);
-  outline-color: var(--danger);
+  border-color: var(--clr-danger);
+  outline-color: var(--clr-danger);
 }
 
 .msg-validation {
@@ -37,27 +37,27 @@
 }
 
 .msg-validation.success {
-  color: var(--success);
+  color: var(--clr-success);
 }
 
 .msg-validation.warning {
-  color: var(--warning);
+  color: var(--clr-warning);
 }
 
 .msg-validation.error {
-  color: var(--danger);
+  color: var(--clr-danger);
 }
 
 /* || Textbox with Icon || */
 .textbox-icon-container {
   display: flex;
-  background-color: var(--white);
+  background-color: var(--clr-white);
   align-items: center;
   justify-content: center;
   width: 100%;
   padding: var(--sp-fractions3) var(--sp-tens1);
   gap: var(--sp-tens2);
-  border: 1px solid var(--black);
+  border: 1px solid var(--clr-black);
   border-radius: var(--br-1);
 }
 
@@ -87,6 +87,6 @@
 
 .checkbox,
 .radio {
-  width: var(--sp-twentys2);
-  height: var(--sp-twentys2);
+  width: var(--sp-twentys);
+  height: var(--sp-twentys);
 }

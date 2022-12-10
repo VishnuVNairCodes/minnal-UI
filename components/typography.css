@@ -61,7 +61,7 @@ h6 {
 
 /* || Gray Text || */
 .text-gray {
-  color: var(--text-gray);
+  color: var(--clr-text-gray);
 }
 
 /* || Aligned Text || */

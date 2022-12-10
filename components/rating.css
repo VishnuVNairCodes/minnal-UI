@@ -1,7 +1,7 @@
 /* || Rating Input */
 .rating-input-container {
   display: flex;
-  background-color: var(--white);
+  background-color: var(--clr-white);
   font-size: var(--f-thirtys1);
   padding: var(--sp-tens2);
   border-radius: var(--br-1);
@@ -9,7 +9,7 @@
 
 .rating-input {
   cursor: pointer;
-  color: var(--rating);
+  color: var(--clr-rating);
 }
 
 .rating-input-checkbox {
@@ -27,7 +27,7 @@
   display: flex;
   text-align: left;
   gap: var(--sp-fractions2);
-  background-color: var(--white);
+  background-color: var(--clr-white);
   font-size: var(--f-tens4);
   font-weight: 700;
   padding: var(--sp-fractions2);
@@ -35,5 +35,5 @@
 }
 
 .rating-badge-icon {
-  color: var(--rating);
+  color: var(--clr-rating);
 }
