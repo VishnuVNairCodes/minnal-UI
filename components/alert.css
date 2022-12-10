@@ -3,9 +3,9 @@
   flex-basis: 90%;
   align-items: center;
   justify-content: flex-start;
-  gap: 8px;
-  padding: 1.6rem;
-  border-radius: 4px;
+  gap: var(--sp-fractions3);
+  padding: var(--sp-tens2);
+  border-radius: var(--sp-fractions2);
   color: var(--alert-primary);
   background-color: var(--alert-primary-bg);
 }
@@ -93,7 +93,7 @@
   border: none;
   background-color: inherit;
   color: inherit;
-  font-size: 1.6rem;
+  font-size: var(--f-tens4);
 }
 .btn-alert-close:hover {
   color: var(--alert-close-hover);

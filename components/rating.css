@@ -2,8 +2,9 @@
 .rating-input-container {
   display: flex;
   background-color: var(--white);
-  font-size: 3.2rem;
-  padding: 1.6rem;
+  font-size: var(--f-thirtys1);
+  padding: var(--sp-tens2);
+  border-radius: var(--br-1);
 }
 
 .rating-input {
@@ -25,12 +26,12 @@
 .rating-badge-container {
   display: flex;
   text-align: left;
-  gap: 4px;
+  gap: var(--sp-fractions2);
   background-color: var(--white);
-  font-size: 1.6rem;
+  font-size: var(--f-tens4);
   font-weight: 700;
-  padding: 4px;
-  border-radius: 2px;
+  padding: var(--sp-fractions2);
+  border-radius: var(--br-1);
 }
 
 .rating-badge-icon {

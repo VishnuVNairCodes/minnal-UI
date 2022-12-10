@@ -9,8 +9,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  font-size: 2rem;
-  margin: 3.2rem;
+  font-size: var(--f-twentys1);
+  margin: var(--sp-thirtys);
   height: 100vh;
   font-family: "Lato", sans-serif;
 }
@@ -24,7 +24,7 @@
 }
 .link:hover,
 .link-active {
-  font-weight: bold;
+  font-weight: var(--fwt-bold);
   transition: font-weight 0.3s;
 }
 
@@ -32,19 +32,19 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 3.2rem;
+  padding: var(--sp-thirtys);
   border-bottom: 1px solid var(--doc-border);
 }
 .nav-brand-name {
-  font-weight: bold;
+  font-weight: var(--fwt-bold);
 }
 .nav-brand-name-link {
-  margin: 0 1.6rem;
+  margin: 0 var(--sp-tens2);
 }
 .nav-contacts {
   display: flex;
-  gap: 1.6rem;
-  font-size: 2rem;
+  gap: var(--sp-tens2);
+  font-size: var(--f-twentys1);
 }
 .nav-contact-link {
   color: var(--secondary);
@@ -59,11 +59,11 @@
 /* || aside || */
 .aside {
   flex: 1;
-  padding: 1.6rem;
+  padding: var(--sp-tens2);
   border-right: 1px solid var(--doc-border);
 }
 .aside-list {
-  margin-top: 1.6rem;
+  margin-top: var(--sp-tens2);
 }
 
 /* || main || */
@@ -71,15 +71,15 @@
   flex: 4;
   display: flex;
   flex-direction: column;
-  padding: 2.4rem;
-  gap: 4.8rem;
+  padding: var(--sp-twentys);
+  gap: var(--sp-fourtys);
 }
 
 .inner-container {
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: var(--sp-tens2);
 }
 
 .showcase,
@@ -87,14 +87,14 @@
   display: flex;
   justify-content: space-around;
   background-color: var(--showcase-bg);
-  padding: 4.8rem;
-  border-radius: 0.3rem;
+  padding: var(--sp-fourtys);
+  border-radius: var(--br-1);
 }
 .showcase {
   flex-wrap: wrap;
-  gap: 1.6rem;
+  gap: var(--sp-tens2);
 }
 .showcase-column {
   flex-direction: column;
-  gap: 3.2rem;
+  gap: var(--sp-thirtys);
 }

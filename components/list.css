@@ -3,7 +3,7 @@
 .list-stacked {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: var(--sp-tens2);
 }
 
 .list-stacked {
@@ -14,11 +14,11 @@
 }
 
 .list-stacked-heading {
-  padding: 7px;
+  padding: var(--sp-fractions3);
 }
 
 .list-stacked-item {
-  padding: 2.4rem;
+  padding: var(--sp-twentys);
   border-top: 1px solid var(--stacked-list-border);
   cursor: pointer;
 }

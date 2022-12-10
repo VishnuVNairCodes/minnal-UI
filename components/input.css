@@ -4,16 +4,16 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 7px;
+  gap: var(--sp-fractions3);
   width: 80%;
 }
 
 .textbox {
   width: 100%;
-  padding: 8px;
+  padding: var(--sp-fractions3);
   border-style: solid;
   border-color: var(--input-border);
-  border-radius: 4px;
+  border-radius: var(--br-1);
   outline-color: var(--primary);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .msg-validation {
-  font-size: 1.2rem;
+  font-size: var(--f-tens2);
 }
 
 .msg-validation.success {
@@ -55,16 +55,16 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 8px 1rem;
-  gap: 2rem;
+  padding: var(--sp-fractions3) var(--sp-tens1);
+  gap: var(--sp-tens2);
   border: 1px solid var(--black);
-  border-radius: 4px;
+  border-radius: var(--br-1);
 }
 
 .textbox-icon-container > .textbox {
   border: none;
   padding: 0;
-  font-size: 1.2rem;
+  font-size: var(--f-tens2);
 }
 
 /* || checkbox || */
@@ -74,7 +74,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 4.8rem;
+  gap: var(--sp-fourtys);
 }
 
 .checkbox-container > label,
@@ -82,11 +82,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.6rem;
+  gap: var(--sp-tens2);
 }
 
 .checkbox,
 .radio {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: var(--sp-twentys2);
+  height: var(--sp-twentys2);
 }

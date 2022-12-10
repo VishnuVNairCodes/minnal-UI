@@ -2,15 +2,20 @@
   display: flex;
   flex-direction: column;
   background-color: var(--white);
-  padding: 3.2rem 0;
+  padding: var(--sp-thirtys) 0;
   width: 50%;
-  border-radius: 8px;
+  border-radius: var(--br-2);
+}
+
+.modal-header,
+.modal-text,
+.modal-button-container {
+  padding: 0 var(--sp-thirtys) var(--sp-tens2) var(--sp-thirtys);
 }
 
 .modal-header {
   display: flex;
   align-items: center;
-  padding: 0 3.2rem 1.6rem 3.2rem;
 }
 
 .modal-close {
@@ -26,13 +31,8 @@
   flex-direction: column;
 }
 
-.modal-text {
-  padding: 0 3.2rem 1.6rem 3.2rem;
-}
-
 .modal-button-container {
   display: flex;
   margin-left: auto;
-  padding: 0 3.2rem 1.6rem 3.2rem;
-  gap: 1rem;
+  gap: var(--sp-tens1);
 }

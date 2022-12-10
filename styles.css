@@ -16,7 +16,53 @@
 @import url("/components/grid.css");
 @import url("/components/slider.css");
 
+html {
+  font-size: 62.5%;
+}
+
 :root {
+  /* || spacing || */
+  --sp-fractions1: 2px;
+  --sp-fractions2: 4px;
+  --sp-fractions3: 8px;
+  --sp-tens1: 1.2rem;
+  --sp-tens2: 1.6rem;
+  --sp-twentys: 2.4rem;
+  --sp-thirtys: 3.2rem;
+  --sp-fourtys: 4.8rem;
+  --sp-sixtys: 6.4rem;
+  --sp-eightys: 8rem;
+  --sp-ninetys: 9.6rem;
+  --sp-hundreds: 12.8rem;
+
+  /* || font size || */
+  --f-tens1: 1rem;
+  --f-tens2: 1.2rem;
+  --f-tens3: 1.4rem;
+  --f-tens4: 1.6rem;
+  --f-tens5: 1.8rem;
+  --f-twentys1: 2rem;
+  --f-twentys2: 2.4rem;
+  --f-thirtys1: 3rem;
+  --f-thirtys2: 3.6rem;
+  --f-fourtys: 4.4rem;
+  --f-fiftys: 5.2rem;
+  --f-sixtys: 6.2rem;
+  --f-seventys: 7.4rem;
+  --f-eightys: 8.6rem;
+  --f-ninetys: 9.8rem;
+
+  /* || font weights || */
+  --fwt-light: 300;
+  --fwt-normal: 400;
+  --fwt-bold: 700;
+  --fwt-heavy: 900;
+
+  /* || border radius || */
+  --br-1: 4px;
+  --br-2: 8px;
+
+  /* || colors || */
   --white: #fff;
   --black: #000;
   --doc-border: #808080;
@@ -67,8 +113,4 @@
   --rating: #03a685;
   --z-index-toast: 9999;
   --text-gray: #6b7280;
-}
-
-html {
-  font-size: 62.5%;
 }

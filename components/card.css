@@ -3,10 +3,10 @@
   display: flex;
   flex-direction: column;
   width: 33rem;
-  padding: 4px;
+  padding: var(--sp-fractions2);
   border: 1px solid var(--card-border);
-  border-radius: 4px;
-  gap: 1.2rem;
+  border-radius: var(--br-1);
+  gap: var(--sp-tens1);
   background-color: var(--white);
 }
 
@@ -24,9 +24,9 @@
 .card-container > .btn-icon {
   color: var(--card-dismiss);
   position: absolute;
-  top: 1.6rem;
-  right: 1.6rem;
-  font-size: 2.4rem;
+  top: var(--sp-tens2);
+  right: var(--sp-tens2);
+  font-size: var(--f-twentys2);
   z-index: 1;
 }
 .card-container > .btn-icon:hover {
@@ -36,14 +36,14 @@
 
 .card-badge {
   position: absolute;
-  top: 2rem;
+  top: var(--sp-tens2);
   left: 0;
   z-index: 1;
   color: var(--white);
   background-color: var(--primary);
-  font-size: 1.4rem;
-  padding: 4px;
-  border-radius: 0 7px 7px 0;
+  font-size: var(--f-tens3);
+  padding: var(--sp-fractions2);
+  border-radius: 0 var(--br-2) var(--br-2) 0;
 }
 
 .text-overlay {
@@ -51,11 +51,11 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2.2rem;
+  font-size: var(--f-twentys2);
   color: var(--white);
   background-color: var(--text-overlay-bg);
-  padding: 5px;
-  border-radius: 5px;
+  padding: var(--sp-fractions2);
+  border-radius: var(--br-1);
   text-align: center;
 }
 
@@ -68,15 +68,15 @@
 .card-image {
   height: 32rem;
   width: 32rem;
-  border-radius: 2px;
+  border-radius: var(--br-1);
   object-fit: cover;
   border: 1px solid var(--card-img-border);
 }
 
 .rating-badge-container {
   position: absolute;
-  left: 4px;
-  bottom: 4px;
+  left: var(--sp-fractions2);
+  bottom: var(--sp-fractions2);
 }
 
 .overlay {
@@ -86,8 +86,8 @@
 .card-details-container {
   display: flex;
   flex-direction: column;
-  padding: 1.2rem;
-  gap: 1.6rem;
+  padding: var(--sp-tens1);
+  gap: var(--sp-tens2);
 }
 
 .card-details-header {
@@ -97,14 +97,15 @@
 }
 
 .card-details-header > button {
-  font-size: 2.9rem;
+  font-size: var(--f-thirtys1);
 }
 .card-details-header > button:hover {
   color: var(--wishlist-hover);
+  transition: color 0.3s;
 }
 
 .card-text-container > h1 {
-  font-size: 1.8rem;
+  font-size: var(--f-tens5);
 }
 
 .card-price-container {
@@ -112,11 +113,11 @@
   flex-flow: row wrap;
   align-items: center;
   align-content: center;
-  gap: 1rem;
+  gap: var(--sp-tens1);
 }
 
 .card-price {
-  font-size: 3.2rem;
+  font-size: var(--f-thirtys1);
   font-weight: bold;
 }
 
@@ -132,5 +133,5 @@
 .card-button-container {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: var(--sp-fractions-2);
 }
