@@ -21,22 +21,22 @@ html {
 }
 
 .landing-heading {
-  font-size: 8rem;
+  font-size: var(--f-eightys);
   text-align: center;
   margin-bottom: 0;
 }
 
 .landing-text {
-  font-size: 3.2rem;
+  font-size: var(--f-thirtys2);
   text-align: center;
 }
 
 .btn-get-started {
-  font-size: 3.2rem;
+  font-size: var(--f-thirtys2);
   color: white;
   background-color: blue;
-  padding: 1.6rem;
-  border-radius: 4px;
+  padding: var(--sp-tens2);
+  border-radius: var(--br-1);
   border-style: none;
   text-decoration: none;
 }
