@@ -51,7 +51,6 @@
 /* || Textbox with Icon || */
 .textbox-icon-container {
   display: flex;
-  background-color: var(--clr-white);
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -59,12 +58,14 @@
   gap: var(--sp-tens2);
   border: 1px solid var(--clr-black);
   border-radius: var(--br-1);
+  background-color: var(--clr-white);
 }
 
 .textbox-icon-container > .textbox {
-  border: none;
+  font-size: var(--f-tens5);
   padding: 0;
-  font-size: var(--f-tens2);
+  border: none;
+  outline: none;
 }
 
 /* || checkbox || */
