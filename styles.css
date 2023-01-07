@@ -56,15 +56,17 @@
   /* || border radius || */
   --br-1: 4px;
   --br-2: 8px;
+  --br-3: 2rem;
 
   /* || colors || */
   --clr-white: #fff;
   --clr-black: #000;
   --clr-font-default: #000;
-  --clr-doc-border: #808080;
   --clr-showcase-bg: #f5f5f5;
   --clr-primary: #0ea5e9;
   --clr-primary-hover: #0284c7;
+  --clr-primary-shade: #0284c7;
+  --clr-primary-tint: #87d5f8;
   --clr-secondary: #71717a;
   --clr-secondary-hover: #52525b;
   --clr-success: #34d399;

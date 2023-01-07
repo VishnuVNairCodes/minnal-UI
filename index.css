@@ -13,6 +13,7 @@
 .landing-heading {
   font-size: var(--f-eightys);
   text-align: center;
+  line-height: 1.1;
 }
 
 .landing-text {
