@@ -117,16 +117,17 @@
   --z-index-toast: 9999;
 }
 
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 *,
 *:before,
 *:after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
+  box-sizing: inherit;
 }
 
 body {
